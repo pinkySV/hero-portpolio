@@ -22,7 +22,7 @@ header{
   background-color: #fff8f3;
   padding-top: 50px;
   background-image: url("../images/developer.png"), url("../images/header_bg.png");
-  background-position: top left, bottom  right;
+  background-position:  23px 38px, bottom  right;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
@@ -199,4 +199,45 @@ margin-bottom: 5px;
   line-height: 28px;
   margin-bottom: 20px;
   color: #757575;
+}
+.text-center{
+  text-align: center;
+}
+footer{
+  margin-top: 130px;
+  background-color: #eac5aa;
+  padding: 130px 0;
+}
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+.footer-container .social{
+  max-width: 562px;
+
+}
+
+.footer-container h2{
+font-size: 34px;
+color:#181818 ;
+margin-bottom:20px ;
+}
+.footer-container .social p{
+color: #474747;
+line-height: 16px;
+margin-bottom: 30px;
+}
+.footer-container .icon a{
+  margin-right: 24px;
+
+}
+.footer-container form input[type="text"], .footer-container form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
 }
